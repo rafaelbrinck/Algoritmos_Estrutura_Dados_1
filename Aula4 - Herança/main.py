@@ -28,8 +28,12 @@ ped02 = Pedido("Rua B", cli02)
 
 
 ped01.addProduto(prod01)
-print(ped01.addProduto(prod02))
+#print(ped01.addProduto(prod02))
 ped01.addProduto(prod04)
-ped01.imprimir()
-print(ped01)
+#ped01.imprimir()
+#print(ped01)
 
+from Perecivel import Perecivel
+prodPer01 = Perecivel("Alface", 3.99, cat01, 10)
+
+print(prodPer01)
